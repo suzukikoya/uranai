@@ -1,0 +1,34 @@
+.container{
+  width:360px;
+  margin:20px auto;
+  padding:15px;
+  background:#efefef;
+  text-align:center;
+}
+
+#btn{
+  width:200px;
+  height:40px;
+  line-heigth:40px;
+  margin:10px auto;
+  background: red;
+  color:#fff;
+  font-size:24px;
+  font-weigth:bold;
+  /* 下記の説明　角を丸くする */
+  border-radius:15px;
+
+  /* 下記の説明　ボタンを選択できなくする */
+  user-select: none;
+  cursor:pointer;
+}
+
+p{
+  margin:30px 0px;
+
+}
+
+#result {
+  font-size:28px;
+  font-weight:bold;
+}
